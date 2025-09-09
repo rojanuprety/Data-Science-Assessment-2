@@ -1,6 +1,7 @@
 import pandas as pd
 from tkinter import Tk
 from tkinter.filedialog import askopenfilename
+import matplotlib.pyplot as plt
 
 # Open file dialog to select datasets
 Tk().withdraw()  # hides the main tkinter window
@@ -33,3 +34,11 @@ dataset2['time'] = pd.to_datetime(dataset2['time'])
 # Example: Create new features
 dataset1['seconds_since_rat_arrival'] = dataset1['seconds_after_rat_arrival']  # already exists
 dataset1['risk_behavior'] = dataset1['risk']  # 0 = avoidance, 1 = risk-taking
+
+# Plot risk behavior counts
+plt.figure(figsize=(6,4))
+dataset1['risk_behavior'].value_counts().plot(kind='bar', color=['green','red'])
+plt.title("Risk Behavior Counts")
+plt.xlabel("Risk Behavior (0=avoidance, 1=risk-taking)")
+plt.ylabel("Count")
+plt.show()
