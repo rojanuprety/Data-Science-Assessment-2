@@ -1,5 +1,5 @@
 Team Member
-Shuabham Singh: S389000
+Shubham Singh: S389000
 Rojan Uprety: S389045
 Asim Sharma: S387260
 Orchid Shrestha: S388437
