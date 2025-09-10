@@ -1,8 +1,8 @@
 Team Member
-Shuabham Singh 
-Rojan Uprety
-Asim Sharma
-Orchid Shrestha
+Shuabham Singh: S389000
+Rojan Uprety: S389045
+Asim Sharma: S387260
+Orchid Shrestha: S388437
 
 We have designed this project in such a way that it uncover hidden patterns in nocturnal activity — to understand how risk-taking, rewards, and seasonal 
 changes interact in shaping behavior of rat vs bats"
